@@ -1,5 +1,5 @@
 {
-  "name": "events",
+  "name": "arale-events",
   "version": "1.2.0",
   "description": "提供基本的事件添加、移除和触发功能。",
   "keywords": ["infrastructure"],
