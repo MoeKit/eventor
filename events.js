@@ -151,9 +151,6 @@ Events.mixTo = function(receiver) {
         receiver.prototype[key] = proto[key]
       }
     }
-    Object.keys(proto).forEach(function(key) {
-      receiver.prototype[key] = proto[key]
-    })
   }
   else {
     var event = new Events
