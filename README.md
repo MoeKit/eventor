@@ -1,10 +1,12 @@
-# Events
+# Eventor
 
 ---
 
 [![spm package](http://spmjs.io/badge/arale-events)](http://spmjs.io/package/arale-events)
 [![Build Status](https://travis-ci.org/aralejs/events.png)](https://travis-ci.org/aralejs/events)
 [![Coverage Status](https://coveralls.io/repos/aralejs/events/badge.png?branch=master)](https://coveralls.io/r/aralejs/events)
+[![Browser compatibility](http://moekit.com/support/ie6+)](#)
+
 
 提供基本的事件添加、移除和触发功能。
 
@@ -12,11 +14,11 @@
 
 ## 使用说明
 
-使用 `Events` 有两种方式，一种是直接实例化：
+使用 `Eventor` 有两种方式，一种是直接实例化：
 
 ```
 define(function(require) {
-    var Events = require('events');
+    var Events = require('eventor');
 
     var object = new Events();
     object.on('expand', function() {
